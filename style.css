@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   background-color: white;
@@ -12,7 +13,7 @@ background-size: 20px 20px;
   left: calc(50% - 100px);
 }
 .clock {
-  background: #BDD0D7;
+  background: #4ea0be;
   border-radius: 25px;
   box-shadow: 6px 6px 0 #ABBABF;
   height: 200px;
@@ -70,8 +71,9 @@ background-size: 20px 20px;
 .clock-minutes {
   height: 60px;
   width: 2px;
-  background: #D56851;
+  background: #c20081;
   border-radius: 2px;
+
   position: absolute;
   top: calc(50% - 60px);
   left: calc(50% - 1px);
@@ -92,7 +94,8 @@ background-size: 20px 20px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #D56851;
+  background: #c20081;
+ 
   box-shadow: 1px 1px 2px rgba(0,0,0,.3);
   top: calc(100% - 4px);
   left: calc(100% - 5px); 
@@ -115,4 +118,3 @@ h3 {
   text-transform: uppercase;
   margin-top: 30px;
 }
-
